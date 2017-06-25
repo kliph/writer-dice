@@ -1,0 +1,12 @@
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 72px;
+  color: #eee;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+html {
+  background-color: #223
+}

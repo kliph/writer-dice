@@ -1,0 +1,6 @@
+* Writer's Dice
+* To start
+=(figwheel-up)=
+* Based on
+
+* Chunky pixels that start out at full opacity and ramp down to 0 randomly scattered around screen
