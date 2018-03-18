@@ -11,6 +11,8 @@
                  [reagent "0.6.2"]
                  [compojure "1.6.0"]
                  [ring/ring-jetty-adapter "1.6.1"]
+                 [info.sunng/ring-jetty9-adapter "0.10.0"]
+                 [ring/ring-ssl "0.2.1"]
                  [environ "1.1.0"]]
   :plugins [[environ/environ.lein "0.3.1"]
             [lein-cljsbuild "1.1.6"]]

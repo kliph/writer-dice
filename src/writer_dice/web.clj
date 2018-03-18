@@ -4,6 +4,8 @@
             [compojure.route :as route]
             [clojure.java.io :as io]
             [ring.adapter.jetty :as jetty]
+            ;; [ring.adapter.jetty9 :as jetty]
+            [ring.middleware.ssl :as ssl]
             [environ.core :refer [env]]
             [cljs.build.api :as cljs-build]))
 
@@ -16,4 +18,5 @@
 
 (defn -main [& [port]]
   (let [port (Integer. (or port (env :port) 5000))]
-    (jetty/run-jetty (site #'app) {:port port :join? false})))
+    (jetty/run-jetty  (site #'app)
+                      {:port port :join? false :ssl? true})))
