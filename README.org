@@ -2,5 +2,28 @@
 * To start
 =(figwheel-up)=
 * Based on
+* Progressive Web App and Audit
+** TODO PWA
+- [ ] Register Service Worker
+- [ ] Responds with 200 when offline
+- [ ] Contains some content with JS is unavailable
+- [ ] Uses HTTPS
+- [ ] Redirects HTTP traffic to HTTPS
+- [ ] User can be prompted to install the web app
+- [ ] Address bar matches brand color
+- [ ] Has <meta name="viewport"> tag with width or initial-scale
+- [ ] Content is sized correctly for viewport
+
+** TODO Performance
+- [ ] gzip text assets
+
+** TODO Accessibility
+- [ ] html element has lang attribute
+
+** Best practices
+- [ ] Uses HTTPS
+- [ ] uses HTTP/2 for its own resources
+- [ ] Manifest short_name under 12 characters =writers-dice=
+
 
 * Chunky pixels that start out at full opacity and ramp down to 0 randomly scattered around screen
