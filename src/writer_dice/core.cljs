@@ -20,7 +20,7 @@
         [:p {} [:strong {} "IF"] " is far less impulsive than any of the other words."]
         [:p {} [:strong {} "IF"] " never jumps to the next beat blind."]
         [:p {} [:strong {} "IF"] " wants to know all the contingencies for the next beat and any prerequisites for the current beat."]
-        [:p {} "Accommodating " [:strong {} "IF"] "’s worrisome nature can help set the stakes for your beats, showing the consequences of action or inaction."]]
+        [:p {} "Accommodating " [:strong {} "IF"] "'s worrisome nature can help set the stakes for your beats, showing the consequences of action or inaction."]]
    :or [:div {}
         [:p {} [:strong {} "OR"] " is the slippery rogue who works best in tight quarters."]
         [:p {} "If the story leads to a dead end, " [:strong {}  "OR"] " finds a path of escape in a storm drain or ventilation shaft."]
