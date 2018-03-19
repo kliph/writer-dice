@@ -4,10 +4,10 @@
 * Based on
 * Progressive Web App and Audit
 ** TODO PWA
-- [ ] Register Service Worker
-- [ ] Responds with 200 when offline
-- [ ] Contains some content with JS is unavailable
-- [ ] Uses HTTPS
+- [X] Register Service Worker
+- [X] Responds with 200 when offline
+- [ ] Contains some content when JS is unavailable
+- [X] Uses HTTPS
 - [ ] Redirects HTTP traffic to HTTPS
 - [ ] User can be prompted to install the web app
 - [ ] Address bar matches brand color
@@ -21,9 +21,9 @@
 - [ ] html element has lang attribute
 
 ** Best practices
-- [ ] Uses HTTPS
+- [X] Uses HTTPS
 - [ ] uses HTTP/2 for its own resources
-- [ ] Manifest short_name under 12 characters =writers-dice=
+- [X] Manifest short_name under 12 characters =writers-dice=
 
 
 * Chunky pixels that start out at full opacity and ramp down to 0 randomly scattered around screen
